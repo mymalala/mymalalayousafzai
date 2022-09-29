@@ -82,10 +82,10 @@ INSERT INTO perfil_cliente VALUES (null, 'Laricia Queiroz Caruso', 'laricia@lari
 INSERT INTO perfil_cliente VALUES (null, 'Nelma Aguiar Darmont', 'nelma@nelma.com.br', 'YtF66bMmK*7V', '(32) 97318-5874', 'nelma_darmont', 
 			'052.562.076-10', '2022-09-20', null);
 
-INSERT INTO perfil_cliente VALUES (null, 'Alfredo Trancoso Barcelos', 'alfredo@alfredo.com.br', '$$v7DK4@jIbl', '(68) 97513-6523', 'alfredo_barcelos', 
+INSERT INTO perfil_cliente VALUES (null, 'Amanda Trancoso Barcelos', 'amanda@amanda.com.br', '$$v7DK4@jIbl', '(68) 97513-6523', 'alfredo_barcelos', 
 			'963.117.942-76', '2022-01-30', null);
 
-INSERT INTO perfil_cliente VALUES (null, 'Yago Santomauro Silveira', 'yago@yago.com.br', '8YIG&zbEfS!8', '((98) 97951-5401', 'yago_silveira', 
+INSERT INTO perfil_cliente VALUES (null, 'Yasmin Santomauro Silveira', 'yasmin@yasmin.com.br', '8YIG&zbEfS!8', '((98) 97951-5401', 'yago_silveira', 
 			'724.663.213-19', '2022-07-25', null);
 
 INSERT INTO perfil_cliente VALUES (null, 'Julieta Goulart Leandro', 'julieta@julieta.com.br', '*)&x34p6ul$S', '(68) 99104-1440', 'julieta_leandro', 
