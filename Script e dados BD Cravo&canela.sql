@@ -1,8 +1,8 @@
 -- -----------------------------------------------------
 -- Banco de Dados cravo_canela
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS cravo_canela_BD DEFAULT CHARACTER SET utf8 ;
-USE cravo_canela_BD ;
+CREATE SCHEMA IF NOT EXISTS cravo_canela DEFAULT CHARACTER SET utf8 ;
+USE cravo_canela ;
 
 -- -----------------------------------------------------
 -- Tabela cravo_canela.perfil_cliente
@@ -65,34 +65,34 @@ DEFAULT CHARACTER SET = utf8;
 -- TABELA perfil_cliente --
 
 INSERT INTO perfil_cliente VALUES (null, 'Joyce Louzano Montilla', 'joyce@joyce.com.br', 'sR&4ZVunNKXf', '(85) 99697-3025', 'joyce_motilla', 
-			'589.388.613-50', '2022-08-12', '');
+			'589.388.613-50', '2022-08-12', null);
 
 INSERT INTO perfil_cliente VALUES (null, 'Telma Cosme Mata', 'telma@telma.com.br', 'fiX)@5*I5_5', '(28) 98686-4857', 'telma_mata', 
-			'486.555.217-01', '2022-02-06', '');
+			'486.555.217-01', '2022-02-06', null);
 
 INSERT INTO perfil_cliente VALUES (null, 'Mayane Firmino Pena', 'mayane@mayane.com.br', '8$O=BoKEdUSE', '(65) 98058-5623', 'mayane_pena', 
-			'734.273.101-32', '2022-03-14', '');
+			'734.273.101-32', '2022-03-14', null);
 
 INSERT INTO perfil_cliente VALUES (null, 'Laricia Queiroz Caruso', 'laricia@laricia.com.br', '&ml(Ld=4cdpY', '(93) 98668-7796', 'laricia_queiroz', 
-			'416.126.822-00', '2022-05-15', '');
+			'416.126.822-00', '2022-05-15', null);
 
 INSERT INTO perfil_cliente VALUES (null, 'Nelma Aguiar Darmont', 'nelma@nelma.com.br', 'YtF66bMmK*7V', '(32) 97318-5874', 'nelma_darmont', 
-			'052.562.076-10', '2022-09-20', '');
+			'052.562.076-10', '2022-09-20', null);
 
 INSERT INTO perfil_cliente VALUES (null, 'Alfredo Trancoso Barcelos', 'alfredo@alfredo.com.br', '$$v7DK4@jIbl', '(68) 97513-6523', 'alfredo_barcelos', 
-			'963.117.942-76', '2022-01-30', '');
+			'963.117.942-76', '2022-01-30', null);
 
 INSERT INTO perfil_cliente VALUES (null, 'Yago Santomauro Silveira', 'yago@yago.com.br', '8YIG&zbEfS!8', '((98) 97951-5401', 'yago_silveira', 
-			'724.663.213-19', '2022-07-25', '');
+			'724.663.213-19', '2022-07-25', null);
 
 INSERT INTO perfil_cliente VALUES (null, 'Julieta Goulart Leandro', 'julieta@julieta.com.br', '*)&x34p6ul$S', '(68) 99104-1440', 'julieta_leandro', 
-			'669.331.182-23', '2022-09-16', '');
+			'669.331.182-23', '2022-09-16', null);
 
 INSERT INTO perfil_cliente VALUES (null, 'Regiane Carvel Prucho', 'regiane@regiane.com.br', '+GyG*zKHbhr1', '(22) 98391-8139', 'regiane_prucho', 
-			'644.761.037-15', '2022-06-02', '');
+			'644.761.037-15', '2022-06-02', null);
 
 INSERT INTO perfil_cliente VALUES (null, 'Margareth França Correia', 'margareth@margareth.com.br', 'SbLHAoHq5N7E', '(33) 99536-1377', 'margareth_correia', 
-			'331.214.906-13', '2022-04-20', '');
+			'331.214.906-13', '2022-04-20', null);
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -124,7 +124,7 @@ INSERT INTO video VALUES (null, 'Aula 06 - Inclusão do Pacote: Angular 2 Slim L
 			'https://www.youtube.com/watch?v=NJEZDV77bhQ&list=PLb2HQ45KP0Wv5ZKHK-qHENtY_63LiumFq&index=1', 0, null, '');
 
 INSERT INTO video VALUES (null, 'Aula 07 - Desenvolvendo os Eventos Router do Ng2 Slim na Aplicação', 'Durante o tutorial, você aprenderá a desenvolver uma 
-			aplicação que consiste em realizar um cadastro de um Funcionário para uma empresa XYZ.', 
+			aplicação que consisthistoricoe em realizar um cadastro de um Funcionário para uma empresa XYZ.', 
 			'https://www.youtube.com/watch?v=NJEZDV77bhQ&list=PLb2HQ45KP0Wv5ZKHK-qHENtY_63LiumFq&index=1', 0, null, '');
 
 INSERT INTO video VALUES (null, 'Aula 08 - Desenvolvimento do Form com Bootstrap na Aplicação', 'Durante o tutorial, você aprenderá a desenvolver uma aplicação 
@@ -178,45 +178,44 @@ INSERT INTO video VALUES (null, 'Tem Aula! Listas Encadeadas: Conceito e Impleme
 -------------------------------------------------------------------------------------------------------------------------------------------            
 -- TABELA historico --
 
-INSERT INTO historico VALUES (1, 15);
-INSERT INTO historico VALUES (1, 11);
-INSERT INTO historico VALUES (1, 13);
-INSERT INTO historico VALUES (1, 2);
-INSERT INTO historico VALUES (2, 6);
-INSERT INTO historico VALUES (2, 8);
-INSERT INTO historico VALUES (2, 18);
-INSERT INTO historico VALUES (2, 16);
-INSERT INTO historico VALUES (3, 1);
-INSERT INTO historico VALUES (3, 3);
-INSERT INTO historico VALUES (3, 7);
-INSERT INTO historico VALUES (3, 14);
-INSERT INTO historico VALUES (4, 19);
-INSERT INTO historico VALUES (4, 4);
-INSERT INTO historico VALUES (4, 12);
-INSERT INTO historico VALUES (4, 9);
-INSERT INTO historico VALUES (5, 10);
-INSERT INTO historico VALUES (5, 5);
-INSERT INTO historico VALUES (5, 20);
-INSERT INTO historico VALUES (5, 17);
-INSERT INTO historico VALUES (6, 7);
-INSERT INTO historico VALUES (6, 16);
-INSERT INTO historico VALUES (6, 18);
-INSERT INTO historico VALUES (6, 2);
-INSERT INTO historico VALUES (7, 4);
-INSERT INTO historico VALUES (7, 11);
-INSERT INTO historico VALUES (7, 3);
-INSERT INTO historico VALUES (7, 20);
-INSERT INTO historico VALUES (8, 9);
-INSERT INTO historico VALUES (8, 1);
-INSERT INTO historico VALUES (8, 5);
-INSERT INTO historico VALUES (8, 13);
-INSERT INTO historico VALUES (9, 8);
-INSERT INTO historico VALUES (9, 12);
-INSERT INTO historico VALUES (9, 14);
-INSERT INTO historico VALUES (9, 15);
-INSERT INTO historico VALUES (10, 19);
-INSERT INTO historico VALUES (10, 17);
-INSERT INTO historico VALUES (10, 10);
-INSERT INTO historico VALUES (10, 6);
+INSERT INTO historico VALUES (null, '2022-04-15', 1, 15);
+INSERT INTO historico VALUES (null, '2022-04-19', 1, 11);
+INSERT INTO historico VALUES (null, '2022-07-01', 1, 13);
+INSERT INTO historico VALUES (null, '2022-08-07', 1, 2);
+INSERT INTO historico VALUES (null, '2022-01-11', 2, 6);
+INSERT INTO historico VALUES (null, '2022-02-09', 2, 8);
+INSERT INTO historico VALUES (null, '2022-02-11', 2, 18);
+INSERT INTO historico VALUES (null, '2022-02-13', 2, 16);
+INSERT INTO historico VALUES (null, '2022-01-24', 3, 1);
+INSERT INTO historico VALUES (null, '2022-02-07', 3, 3);
+INSERT INTO historico VALUES (null, '2022-03-10', 3, 7);
+INSERT INTO historico VALUES (null, '2022-03-11', 3, 14);
+INSERT INTO historico VALUES (null, '2022-02-16', 4, 19);
+INSERT INTO historico VALUES (null, '2022-03-28', 4, 4);
+INSERT INTO historico VALUES (null, '2022-04-29', 4, 12);
+INSERT INTO historico VALUES (null, '2022-05-08', 4, 9);
+INSERT INTO historico VALUES (null, '2022-02-09', 5, 10);
+INSERT INTO historico VALUES (null, '2022-06-03', 5, 5);
+INSERT INTO historico VALUES (null, '2022-07-01', 5, 20);
+INSERT INTO historico VALUES (null, '2022-09-08', 5, 17);
+INSERT INTO historico VALUES (null, '2022-01-08', 6, 7);
+INSERT INTO historico VALUES (null, '2022-01-12', 6, 16);
+INSERT INTO historico VALUES (null, '2022-01-24', 6, 18);
+INSERT INTO historico VALUES (null, '2022-01-27', 6, 2);
+INSERT INTO historico VALUES (null, '2022-02-09', 7, 4);
+INSERT INTO historico VALUES (null, '2022-04-15', 7, 11);
+INSERT INTO historico VALUES (null, '2022-05-13', 7, 3);
+INSERT INTO historico VALUES (null, '2022-07-03', 7, 20);
+INSERT INTO historico VALUES (null, '2022-01-04', 8, 9);
+INSERT INTO historico VALUES (null, '2022-02-17', 8, 1);
+INSERT INTO historico VALUES (null, '2022-05-01', 8, 5);
+INSERT INTO historico VALUES (null, '2022-07-02', 8, 13);
+INSERT INTO historico VALUES (null, '2022-01-07', 9, 8);
+INSERT INTO historico VALUES (null, '2022-04-10', 9, 12);
+INSERT INTO historico VALUES (null, '2022-04-13', 9, 14);
+INSERT INTO historico VALUES (null, '2022-05-19', 9, 15);
+INSERT INTO historico VALUES (null, '2022-01-26', 10, 19);
+INSERT INTO historico VALUES (null, '2022-03-02', 10, 17);
+INSERT INTO historico VALUES (null, '2022-03-24', 10, 10);
+INSERT INTO historico VALUES (null, '2022-04-20', 10, 6);
 
-SELECT * FROM historico;
