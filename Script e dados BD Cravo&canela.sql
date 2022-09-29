@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS cravo_canela.perfil_cliente (
   telefone VARCHAR(20) NULL DEFAULT NULL,
   nome_usuario VARCHAR(50) NOT NULL,
   cpf VARCHAR(15) NOT NULL,
-  data_login date NOT NULL,
+  data_login DATE NOT NULL,
   status_conta VARCHAR(10) NULL DEFAULT NULL,
   PRIMARY KEY (id),
   UNIQUE INDEX cpf_UNIQUE (cpf ASC) VISIBLE,
@@ -47,8 +47,11 @@ DEFAULT CHARACTER SET = utf8;
 -- Tabela cravo_canela.historico
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS cravo_canela.historico (
+  id INT NOT NULL AUTO_INCREMENT,
+  data_visualizacao DATE NOT NULL,
   cliente_id INT NOT NULL,
   video_id INT NOT NULL,
+  PRIMARY KEY (id),
   INDEX fk_cliente_has_video_video1_idx (video_id ASC) VISIBLE,
   INDEX fk_cliente_has_video_cliente_idx (cliente_id ASC) VISIBLE,
   CONSTRAINT fk_cliente_has_video_cliente
