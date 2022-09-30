@@ -1,7 +1,8 @@
 # My Malala
 
-My malala é uma plataforma de video aulas com foco no público feminino.
-Com grande inspiração na ativista paquistanesa Malala Yousafzai que luta ferrenhamente pelo acesso das mulheres à educação.
+My malala é um projeto do curso Mulheres em cloud, uma parceria feita entre Gama Academy e McKinsey & Company no Brasil.
+Nada mais é que uma plataforma de video aulas desenvolvida com foco no público feminino.
+Com grande inspiração na ativista paquistanesa Malala Yousafzai que luta de forma ativa e com sua vida pelo acesso das mulheres à educação.
 
 
 
