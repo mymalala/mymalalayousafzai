@@ -138,6 +138,7 @@ Coloque qualquer informação adicional aqui
 - Gabrielle Gushiken
 - Isabela de Oliveira
 - Miriam Sobral
+- Karoline Albuquerque
 ## Documentação de cores
 
 | Cor               | Hexadecimal                                                |
