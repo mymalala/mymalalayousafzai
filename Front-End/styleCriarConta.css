@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #170132;
+}
+#crieConta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+    background-color: #361542 ;
+    padding: 40px;
+    border-radius: 15px;
+    width:280px;
+}
+
+.card-header {
+    padding-bottom: 50px;
+    color: #85ae72;
+}
+
+.card-header::after {
+    content: "";
+    width: 220px;
+    height: 1px;
+    background-color:#85ae72;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+
+.card-content label {
+    color:#85ae72;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding:10px 0;
+}
+
+.card-content-area input {
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #85ae72;
+    outline: none;
+    color: #eafde6;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    width: 100%;
+    height: 40px;
+    background-color: #85ae72;
+    border:none;
+    color:#eafde6;
+    margin: 10px 0;
+}
+
+.card-footer a {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #eafde6;
+    text-decoration: none;
+}
