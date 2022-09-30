@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCriarConta.css">
+    <title>Crie sua conta</title>
+</head>
+<body>
+    <div id="crieConta">
+
+        <form class="card" action="/clientes/cadastrar" method="POST">
+            <div class="card-header">
+                 <h2>Crie uma conta</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-content-area">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" autocomplete="off">
+                </div>
+                <div class="card-content-area">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" autocomplete="off">
+                </div>
+                <div class="card-content-area">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" autocomplete="off">
+                </div>
+                <div class="card-content-area">
+                    <label for="cpf">Cpf</label>
+                    <input type="number" name="cpf" id="cpf" autocomplete="off">
+                <div class="card-content-area">
+                    <label for="usuario">Nome de usuário</label>
+                    <input type="text" name="nomeUsuario" id="usuario" autocomplete="off">       
+                </div>        
+                <div class="card-content-area">        
+                    <label for="password">Senha</label>        
+                    <input type="password" name="senha" id="password" autocomplete="off">        
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="home.html"><button type="button" class="button">Criar conta</button></a>      
+            </div>
+        </form>
+    </div>
+</body>
+    
+
+</html>
