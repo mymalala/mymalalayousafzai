@@ -1,9 +1,16 @@
 # My Malala
 
-My malala é um projeto do curso Mulheres em cloud, uma parceria feita entre Gama Academy e McKinsey & Company no Brasil.
-Nada mais é que uma plataforma de video aulas desenvolvida com foco no público feminino.
-Com grande inspiração na ativista paquistanesa Malala Yousafzai que luta de forma ativa e com sua vida pelo acesso das mulheres à educação.
+Malala é uma consultoria de Engenharia de Software, que tem como missão desenvolver tecnologias que geram impacto social. 
 
+O projeto disponibilizado neste repositório, foi realizado a pedido da Consultoria Cravo e Canela, em parceria com a Gama Academy e McKinsey & Company no Brasil.
+
+O escopo de desenvolvimento, envolve soluções que propicie a criação de API para gerenciar as transações.
+
+Assim, pretendeu-se construir uma PLATAFORMA DE FORMAÇÃO DE MULHERES CIS E TRANSGÊNERO COM:  Integração simplificada das  informações das alunas, facilitando o controle de informações,  provendo uma maior segurança às regras de negócio e outras funções importantes do sistema.
+
+
+
+Queremos contribuir com o fomento de mulheres na tecnologia!
 
 
 
