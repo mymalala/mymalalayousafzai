@@ -164,9 +164,12 @@ Coloque qualquer informação adicional aqui
 ## Funcionalidades
 
 - Criação de usuário
-- Histórico de videos
-- Visualização de vídeos
+- Alteração de dados do usuário
 - Exclusão de conta
+- Histórico de videos por usuário
+- Visualização de vídeos
+- Conclusão de vídeos assistidos
+- Classificação de vídeo por nota
 
 
 ## Melhorias
